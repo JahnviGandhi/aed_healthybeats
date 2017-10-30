@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="affectedVsLbl" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="energyCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="protienCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="fatCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="carboCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="iodineCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="sugarCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="saltCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="fibersCheck" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="tempCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="sysBpCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="diaBpCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="bloodSugarCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="respRateCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pulseCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Component id="bmiCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cholesterolCheck" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="vitACheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="vitB12Check" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="vitCCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="vitDCheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="vitECheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="vitKCheck" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="affectedNutrientsLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                      <Component id="fcdLbl" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="0" pref="124" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+                  <Component id="jScrollPane2" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="backBtn" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="submitResultsBtn" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="msgLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="msgTxtLbl" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="requestDtLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="requestDateLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+                              <Component id="senderLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="senderNameLbl" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="vsLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="169" max="-2" attributes="0"/>
+                      <Component id="viewVsReportBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      <Component id="viewFcReport" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
+                      <Component id="titleLbl" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="welcomeLbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="welcomeNameLbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="titleLbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="welcomeLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="welcomeNameLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="requestDtLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="requestDateLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="senderLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="senderNameLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="msgLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="msgTxtLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="vsLbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="94" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="fcdLbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="95" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="viewVsReportBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="viewFcReport" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="affectedVsLbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tempCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sysBpCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="diaBpCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bloodSugarCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="respRateCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="pulseCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bmiCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cholesterolCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="affectedNutrientsLbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="energyCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="protienCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fatCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="carboCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="iodineCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sugarCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="saltCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fibersCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="vitACheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vitB12Check" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vitCCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vitDCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vitECheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vitKCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="6" max="32767" attributes="0"/>
+                      <Component id="submitResultsBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="backBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="welcomeNameLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;Name&gt;!"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="welcomeLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Welcome,"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="titleLbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Health Analyst - Process Requests"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="requestDtLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Request Date:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="requestDateLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;Request Date&gt;"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="senderLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sender:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="senderNameLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;Sender Name&gt;"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="msgLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Message:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="msgTxtLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;Message&gt;"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="vsLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vital Signs:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="vitalSignTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="9" rowCount="4">
+                <Column editable="false" title="Time" type="java.lang.Object"/>
+                <Column editable="false" title="Temp." type="java.lang.Object"/>
+                <Column editable="false" title="Sys. BP" type="java.lang.Object"/>
+                <Column editable="false" title="Dia. SP" type="java.lang.Object"/>
+                <Column editable="false" title="Pulse" type="java.lang.Object"/>
+                <Column editable="false" title="Resp. Rate" type="java.lang.Object"/>
+                <Column editable="false" title="Cholesterol" type="java.lang.Object"/>
+                <Column editable="false" title="Blood Sugar" type="java.lang.Object"/>
+                <Column editable="false" title="BMI" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="fcdLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Food Consumption Details:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="fcdTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="15" rowCount="4">
+                <Column editable="false" title="Time" type="java.lang.Object"/>
+                <Column editable="false" title="Energy" type="java.lang.Object"/>
+                <Column editable="false" title="Protien" type="java.lang.Object"/>
+                <Column editable="false" title="Carbo." type="java.lang.Object"/>
+                <Column editable="false" title="Fat" type="java.lang.Object"/>
+                <Column editable="false" title="Fibers" type="java.lang.Object"/>
+                <Column editable="false" title="Sugar" type="java.lang.Object"/>
+                <Column editable="false" title="Salt" type="java.lang.Object"/>
+                <Column editable="false" title="Iodine" type="java.lang.Object"/>
+                <Column editable="false" title="Vit A" type="java.lang.Object"/>
+                <Column editable="false" title="Vit B12" type="java.lang.Object"/>
+                <Column editable="false" title="Vit C" type="java.lang.Object"/>
+                <Column editable="false" title="Vit D" type="java.lang.Object"/>
+                <Column editable="false" title="Vit E" type="java.lang.Object"/>
+                <Column editable="false" title="Vit K" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="viewVsReportBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="View Vital Sign Report"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewVsReportBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="viewFcReport">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="View Nutrients Report"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewFcReportActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="backBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;&lt;  Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="affectedVsLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Affected Vital Signs:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="tempCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Temp"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="sysBpCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sys. BP"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="diaBpCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dia. BP"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="bloodSugarCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sugar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="respRateCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Resp.Rate"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="pulseCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pulse"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="bmiCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BMI"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cholesterolCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cholesterol"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="affectedNutrientsLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Affected Nurients:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="energyCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Energy"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="protienCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Protien"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="fatCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fat"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="carboCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Carbohydrates"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="iodineCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Iodine"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="sugarCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sugar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="saltCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salt"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="fibersCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fibers"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vitACheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vitamin A"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vitB12Check">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vitamin B12"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vitCCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vitamin C"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vitDCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vitamin D"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vitECheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vitamin E"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="vitKCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vitamin K"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="submitResultsBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Submit Results"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="submitResultsBtnActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
